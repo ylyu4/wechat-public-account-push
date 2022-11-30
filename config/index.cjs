@@ -13,8 +13,8 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '57d1c2792870c01e6ea6bbd5fceaba6e',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '四川',
+  CITY: '成都',
 
   USERS: [
     {
@@ -29,11 +29,11 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1996', date: '06-26',
+          type: '*生日', name: '宝贝农历生日', year: '1996', date: '06-18',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '李四', year: '1996', date: '08-10',
+          type: '生日', name: '宝贝阳历生日', year: '1996', date: '08-02',
         },
         {
           type: '节日', name: '在一起纪念日', year: '2015', date: '04-23',
